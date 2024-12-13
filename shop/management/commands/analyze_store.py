@@ -44,11 +44,3 @@ class Command(BaseCommand):
         item_tags = Tag.objects.prefetch_related('items').all()
         # for item in item_tags:
         #     print(item.name)
-
-        
-
-
-        
-
-
-
